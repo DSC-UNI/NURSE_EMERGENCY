@@ -10,8 +10,8 @@ Content-Type: application/json
 
 ###
 
-POST https://fvrolacepnmdzqouvuvr.supabase.co/functions/v1/generate_pdf
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ2cm9sYWNlcG5tZHpxb3V2dXZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjI3MjY3NTAsImV4cCI6MjAzODMwMjc1MH0.UMdKyNFGmJ6grE2fsI-CQJVJxtnAqufW_gP9CexZnpU
+POST https://fvrolacepnmdouvuv.supabase.co/functions/v1/generate_pdf
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ2cm9sYWNlcG5tZHpxb3V2dXZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjI3MjY3NTAsImV4cCI6MjAzODMwMjc1MH0.UMdKyNFGmJ6grE2fsI-CQJVJxtnAqufW_gP9CexZnU
 Content-Type: application/json
 
 {
