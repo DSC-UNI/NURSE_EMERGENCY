@@ -9,10 +9,12 @@ Lista de Supabase Functions que se usan en la NurseEmergency App
 ### Generate PDF Function
 
 Genera un PDF a partir de la información:
+
     -Tabla de Cambio_Turno
     -Almacenamiento de los recursos (firmas y logo)
 
 Los parámetros que recibe la función:
+
     -Nombre completo del enfermero solicitante: string
     -ID del enfermero solicitante: string
     -Nombre completo del enfermero reemplazante: string
