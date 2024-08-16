@@ -1,36 +1,37 @@
-# File with heading
 
-This is a file with top-level heading
-
-## Supabase Functions
+# Supabase Functions
 
 Lista de Supabase Functions que se usan en la NurseEmergency App
 
-### Generate PDF Function
+## Generate PDF Function
 
 Genera un PDF a partir de la información:
 
-    -Tabla de Cambio_Turno
-    -Almacenamiento de los recursos (firmas y logo)
+    - Tabla de Cambio_Turno
+    - Almacenamiento de los recursos (firmas y logo)
 
 Los parámetros que recibe la función:
 
-    -Nombre completo del enfermero solicitante: string
-    -ID del enfermero solicitante: string
-    -Nombre completo del enfermero reemplazante: string
-    -ID del enfermero reemplazante: string
-    -Nombre del servicio: string
-    -Día que se realiza la solicitud: date
-    -Fecha y Hora del cambio del turno: datetime
-    -Razón de la solicitud: string
-    -Firma de la Coordinadora del servicio: image
-    -Firma de la Jefa de enfermería: image
-    -Logo de essalud: image
+```
+{
+    Nombre_completo_enfermero_solicitante: "string",
+    ID_enfermero_solicitante: "string",
+    Nombre_completo_enfermero_reemplazante: "string",
+    ID_enfermero_reemplazante: "string",
+    Nombre_Servicio: "string",
+    Dia_solicitud: "date",
+    Fecha-Hora_cambio_turno: "datetime",
+    Razon_solicitud: "string,
+    Firma_coordinadora_servicio: "image",
+    Firma_jefa_enfermeria: "image",
+    Logo_essalud: "image"
+}
+```
 
-### Send Notification Function
+## Send Notification Function
 
 Soon...
 
-### Put your function
+## Put your function
 
 Write your function.
