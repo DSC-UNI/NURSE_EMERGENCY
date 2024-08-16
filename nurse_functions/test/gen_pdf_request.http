@@ -1,0 +1,21 @@
+POST http://127.0.0.1:54321/functions/v1/generate_pdf
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0
+Content-Type: application/json
+
+{
+    "data_": {
+        "name": "functions"
+    }
+}
+
+###
+
+POST https://fvrolacenmdquvur.supabase.co/functions/v1/generate_pdf
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ2cm9sYWNlcG5tZHpxb3V2dXZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjI3MjY3NTAsImV4cCI6MjAzODMwMjc1MH0.UMdKyNFGmJ6grE2fsI-CQJVJxtnAqufW_gP9CexZpU
+Content-Type: application/json
+
+{
+    "data_": {
+        "name": "functions"
+    }
+}
