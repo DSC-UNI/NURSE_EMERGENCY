@@ -7,7 +7,7 @@ import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import PDFDocument from "npm:pdfkit@0.15.0";
 import { createClient } from "npm:@supabase/supabase-js@2.45.0";
 import { Buffer} from "node:buffer";
-import { fill_request_pdf } from "../_shared/utils.ts";
+import { fill_request_pdf } from "../_shared/fillPDF.ts";
 import { WritableBufferStream } from "../_shared/blobStream.ts";
 
 const supabase = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_ANON_KEY")!);
