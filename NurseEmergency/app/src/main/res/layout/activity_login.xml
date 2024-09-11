@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="#FFF5E1"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -28,7 +28,14 @@
             android:layout_marginEnd="20dp"/>
 
     </LinearLayout>
-
+    <View
+        android:id="@+id/circle_background"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="-150dp"
+        android:background="@drawable/circle_shape" />
     <LinearLayout
         android:id="@+id/form_container"
         android:layout_width="match_parent"
@@ -81,16 +88,5 @@
             android:inputType="textPassword"
             android:layout_marginTop="10dp"/>
 
-        <Button
-            android:id="@+id/register_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button_secondary_background"
-            android:text="REGISTRARSE"
-            android:textSize="20sp"
-            android:textColor="@android:color/white"
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp"/>
     </LinearLayout>
 </RelativeLayout>
